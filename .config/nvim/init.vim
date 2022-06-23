@@ -40,6 +40,8 @@ Plug 'junegunn/goyo.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-commentary'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 call plug#end()
 
 colorscheme gruvbox
@@ -66,6 +68,9 @@ augroup END
 
 let g:rspec_command = "!docker exec ramen_api_dev -- bundle exec rspec {spec}"
 let g:rspec_runner = "os_x_iterm2"
+
+let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
 
 lua << END
 require('lualine').setup()
