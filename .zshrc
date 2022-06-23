@@ -19,3 +19,5 @@ alias cst='c status'
 alias ca='c add'
 alias cc='c commit'
 alias cpush='c push'
+
+export PATH="$PATH:$HOME/go/bin"
