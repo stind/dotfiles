@@ -66,9 +66,6 @@ augroup GRP
     autocmd BufWritePre * :call TrimWhitespace()
 augroup END
 
-let g:rspec_command = "!docker exec ramen_api_dev -- bundle exec rspec {spec}"
-let g:rspec_runner = "os_x_iterm2"
-
 let g:go_def_mode='gopls'
 let g:go_info_mode='gopls'
 
