@@ -14,7 +14,7 @@ export EDITOR=nvim
 alias vim=nvim
 
 # Dotfiles management aliases
-alias c='git --git-dir=/home/bogdan/code/dotfiles/ --work-tree=/home/bogdan'
+alias c='git --git-dir=/home/bogdan/code/stind/dotfiles/ --work-tree=/home/bogdan'
 alias cst='c status'
 alias ca='c add'
 alias cc='c commit'
