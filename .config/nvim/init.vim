@@ -29,7 +29,7 @@ set noshowmode
 set cmdheight=1
 set updatetime=50
 
-call plug#begin('~/vim/plugged')
+call plug#begin('~/.vim/plugged')
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'gruvbox-community/gruvbox'
