@@ -1,3 +1,5 @@
 [user]
 	email = bogdan@mvch.dev
 	name = Bogdan Malakhovich
+[init]
+	defaultBranch = main
